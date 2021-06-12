@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+body{
+    background-image: url("connect.jpg");
+    
+}
+.grid{
+    border:5px solid white;
+    height:120px;
+    width:140px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.grid div{
+    height: 20px;
+    width:20px;
+}
+.player-one{
+    background-color: red;
+    border-radius: 10px;
+}
+.player-two{
+    background-color:yellow;
+    border-radius: 10px;
+}
+h3{
+    color:darkblue;
+    font-family: 'Righteous', cursive;
+}
